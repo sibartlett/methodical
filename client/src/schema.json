@@ -1,0 +1,48 @@
+{
+  "$id": "http://example.com/fstab",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Report",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Title"
+    },
+    "enable": {
+      "type": "boolean",
+      "description": "Enabled"
+    },
+    "date": {
+      "type": "string",
+      "description": "Date"
+    },
+    "revision": {
+      "type": "string",
+      "description": "Revision"
+    },
+    "applicationName": {
+      "type": "string",
+      "description": "Application Name"
+    },
+    "location": {
+      "type": "string",
+      "description": "Location"
+    },
+    "startDate": {
+      "type": "string",
+      "description": "Start Date"
+    },
+    "endDate": {
+      "type": "string",
+      "description": "End Date"
+    },
+    "comments": {
+      "type": "array",
+      "description": "Comments",
+      "items": {
+        "type": "string",
+        "description": "Comment"
+      }
+    }
+  }
+}

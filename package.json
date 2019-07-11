@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "start": "concurrently --kill-others-on-fail \"yarn workspace server dev\" \"yarn workspace client start\""
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
