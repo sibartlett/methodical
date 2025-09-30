@@ -15,7 +15,7 @@
     "formik": "^1.5.1",
     "formik-material-ui": "^0.0.16",
     "history": "^4.7.2",
-    "lodash-es": "^4.17.11",
+    "lodash-es": "^4.17.21",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-router": "^4.3.1",
